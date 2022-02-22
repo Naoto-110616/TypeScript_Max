@@ -7,7 +7,7 @@ function add(n1: number, n2: number) {
 	return;
 }
 function clickHandler(message: string) {
-	// let userName = "Max";
+	let userName = "Max";
 	console.log("Clicked!" + message);
 }
 
