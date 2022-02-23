@@ -18,7 +18,7 @@ var result;
 
 // console.log(result);
 
-const add = (a: number, b: number) => a + b;
+const add = (a: number, b: number = 1) => a + b;
 
 const printOutPut: (a: number | string) => void = (output) =>
 	console.log(output);
