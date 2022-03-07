@@ -1,10 +1,10 @@
 import { Draggable } from "../models/drag-drop.js";
-import Cmp from "./base-component.js";
+import { Component } from "./base-component.js";
 import { Project } from "../models/project.js";
 import { autobind } from "../decorator/autobind.js";
 
 export class ProjectItem
-	extends Cmp<HTMLUListElement, HTMLLIElement>
+	extends Component<HTMLUListElement, HTMLLIElement>
 	implements Draggable
 {
 	private project: Project;

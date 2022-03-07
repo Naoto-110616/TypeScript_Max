@@ -1,9 +1,4 @@
-export const something = "...";
-
-export default abstract class Component<
-	T extends HTMLElement,
-	U extends HTMLElement
-> {
+export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 	templateElement: HTMLTemplateElement;
 	hostElement: T;
 	element: U;
